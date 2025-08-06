@@ -1,32 +1,78 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# Build artifacts
+build/
+bin/
+obj/
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
+*.lo
 *.la
-*.a
-*.lib
-
-# Executables
+*.al
+*.libs
+*.dll
+*.so
+*.so.*
+*.dylib
 *.exe
 *.out
 *.app
+
+# Compiled source
+*.com
+*.class
+*.cxx
+*.cpp~
+*.c++
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+
+# Code::Blocks
+*.depend
+*.layout
+*.cbp
+*.workspace
+
+# Qt
+*.pro.user
+*.moc
+moc_*
+ui_*
+qrc_*
+
+# Visual Studio
+.vs/
+*.vcxproj*
+*.sln
+*.suo
+*.user
+*.ncb
+*.sdf
+*.opensdf
+*.ipch
+*.tlog
+*.log
+*.pch
+*.obj
+*.idb
+*.pdb
+
+# Backup / temp files
+*~
+*.swp
+*.bak
+*.tmp
+
+# Other IDEs
+.idea/
+*.iml
+
+# Test / coverage
+*.gcda
+*.gcno
+*.gcov
+*.gcovr.*
+coverage/
